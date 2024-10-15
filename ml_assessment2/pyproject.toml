@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "venv"
+version = "0.01"
+description = "Machine Learning Project Assignment 2"
+authors = ["Sudama Sharma (G24AIT099)"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
